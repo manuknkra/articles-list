@@ -1,0 +1,27 @@
+{
+  "name": "articles-list",
+  "version": "0.1.0",
+  "description": "Django and angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuknkra/articles-list.git"
+  },
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-angular-templates": "0.0.1",
+    "gulp-concat": "^2.4.1",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "gulp-watch": "^1.1.0"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/manuknkra/articles-list/issues"
+  }
+}
