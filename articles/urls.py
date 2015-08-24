@@ -17,6 +17,7 @@ from django.conf.urls import include, url, patterns
 from django.contrib import admin
 
 from articleApp.views import ArticleList
+from articleApp.views import IndexView
 
 article_urls = patterns('',
     url(r'^$', ArticleList.as_view(), name='article-list')
@@ -26,4 +27,5 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^articles/', include(article_urls)),
+    url(r'^.*$', IndexView.as_view(), name='index'),
 ]
